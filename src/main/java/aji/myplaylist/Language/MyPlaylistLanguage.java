@@ -5,7 +5,7 @@ import aji.myplaylist.Language.lang.zh_cn;
 
 import java.util.Map;
 
-public class Languages {
+public class MyPlaylistLanguage {
     public static final Language DEFAULT_LANGUAGE = null;
     public static final Map<String, Language> LANGUAGE_MAP = Map.of(
             "en_us", new en_us(),

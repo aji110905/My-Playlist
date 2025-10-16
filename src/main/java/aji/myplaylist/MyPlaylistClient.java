@@ -1,11 +1,11 @@
 package aji.myplaylist;
 
-import aji.myplaylist.Language.Languages;
+import aji.myplaylist.Language.MyPlaylistLanguage;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 
 public class MyPlaylistClient implements ClientModInitializer {
-    public static final Languages LANGUAGE = new Languages();
+    public static final MyPlaylistLanguage LANGUAGE = new MyPlaylistLanguage();
 
     @Override
     public void onInitializeClient() {
