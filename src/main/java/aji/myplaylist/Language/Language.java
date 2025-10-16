@@ -1,7 +1,7 @@
 package aji.myplaylist.Language;
 
-import java.util.Map;
+import aji.myplaylist.Language.element.LanguageSource;
 
 public interface Language {
-    Map<String, String> getTranslations();
+    LanguageSource getTranslations();
 }
