@@ -1,8 +1,8 @@
 package aji.myplaylist.translation;
 
 import aji.myplaylist.MyPlaylist;
-import aji.myplaylist.MyPlaylistClient;
-import aji.myplaylist.MyPlaylistServer;
+import aji.myplaylist.client.MyPlaylistClient;
+import aji.myplaylist.server.MyPlaylistServer;
 import net.fabricmc.api.EnvType;
 import net.minecraft.text.Text;
 

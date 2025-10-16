@@ -1,6 +1,6 @@
-package aji.myplaylist.mixin.language;
+package aji.myplaylist.mixin;
 
-import aji.myplaylist.MyPlaylistClient;
+import aji.myplaylist.client.MyPlaylistClient;
 import net.minecraft.client.resource.language.LanguageManager;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

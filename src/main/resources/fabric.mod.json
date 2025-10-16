@@ -19,10 +19,10 @@
             "aji.myplaylist.MyPlaylist"
         ],
 		"server": [
-            "aji.myplaylist.MyPlaylistServer"
+          "aji.myplaylist.server.MyPlaylistServer"
         ],
         "client":[
-            "aji.myplaylist.MyPlaylistClient"
+          "aji.myplaylist.client.MyPlaylistClient"
         ]
 	},
 	"mixins": [
