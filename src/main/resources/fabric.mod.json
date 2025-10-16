@@ -15,9 +15,12 @@
 	"icon": "assets/myplaylist/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"aji.myplaylist.MyPlaylist"
-		],
+        "main": [
+            "aji.myplaylist.MyPlaylist"
+        ],
+		"server": [
+            "aji.myplaylist.MyPlaylistServer"
+        ],
         "client":[
             "aji.myplaylist.MyPlaylistClient"
         ]
