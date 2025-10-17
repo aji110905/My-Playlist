@@ -1,6 +1,6 @@
 package aji.myplaylist.Language.element;
 
-public class LanguageHelper {
+public class LanguageElementHelper {
     public static LanguageNode node(String key){
         return new LanguageNode(key);
     }
