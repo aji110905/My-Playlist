@@ -1,4 +1,4 @@
-package aji.myplaylist.mixin;
+package aji.myplaylist.mixin.client;
 
 import aji.myplaylist.client.MyPlaylistClient;
 import net.minecraft.client.resource.language.LanguageManager;

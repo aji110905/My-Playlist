@@ -3,7 +3,7 @@
 	"package": "aji.myplaylist.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-      "LanguageManagerMixin"
+      "client.LanguageManagerMixin"
     ],
 	"injectors": {
 		"defaultRequire": 1
