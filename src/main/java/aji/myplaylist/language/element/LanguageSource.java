@@ -1,4 +1,4 @@
-package aji.myplaylist.Language.element;
+package aji.myplaylist.language.element;
 
 import java.util.HashSet;
 import java.util.Set;

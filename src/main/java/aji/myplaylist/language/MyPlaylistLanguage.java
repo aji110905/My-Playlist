@@ -1,7 +1,7 @@
-package aji.myplaylist.Language;
+package aji.myplaylist.language;
 
-import aji.myplaylist.Language.lang.en_us;
-import aji.myplaylist.Language.lang.zh_cn;
+import aji.myplaylist.language.lang.en_us;
+import aji.myplaylist.language.lang.zh_cn;
 
 import java.util.Map;
 

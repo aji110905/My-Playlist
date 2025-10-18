@@ -1,7 +1,7 @@
-package aji.myplaylist.Language.lang;
+package aji.myplaylist.language.lang;
 
-import aji.myplaylist.Language.Language;
-import aji.myplaylist.Language.element.LanguageSource;
+import aji.myplaylist.language.Language;
+import aji.myplaylist.language.element.LanguageSource;
 
 public class zh_cn implements Language {
     @Override

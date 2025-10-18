@@ -1,4 +1,4 @@
-package aji.myplaylist.Language.element;
+package aji.myplaylist.language.element;
 
 public class LanguageValue {
     public final String value;
