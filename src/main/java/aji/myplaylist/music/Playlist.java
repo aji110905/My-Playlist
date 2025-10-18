@@ -8,11 +8,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Musics {
+public class Playlist {
     public File playlistFile = new File(FabricLoader.getInstance().getGameDir().toFile(), "playlist");
     private List<Music> musics = new ArrayList<>();
 
-    public Musics(){
+    public Playlist(){
         playlistFile.mkdirs();
         File[] files = playlistFile.listFiles();
         if(files == null) return;
