@@ -18,9 +18,9 @@ public class Playlist {
         if(files == null) return;
         for(File file : files){
             try {
-                musics.add(new Music(file));
+                musics.add(Music.of(file));
             } catch (IOException e) {
-                MyPlaylist.LOGGER.error("Failed to load music: {}", file.getName(), e);
+                MyPlaylist.LOGGER.error("Audio cannot be read from this file: {}", file.getName(), e);
             }
         }
     }
@@ -31,7 +31,7 @@ public class Playlist {
 
     public Music getMusic(String title) {
         for (Music music : musics) {
-            if (music.getTitle().equals(title)) return music;
+            if (music.Title().StringValue().equals(title)) return music;
         }
         return null;
     }
