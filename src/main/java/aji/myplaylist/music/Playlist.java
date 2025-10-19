@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Playlist {
-    public File playlistFile = new File(FabricLoader.getInstance().getGameDir().toFile(), "playlist");
+    private File playlistFile = new File(FabricLoader.getInstance().getGameDir().toFile(), "playlist");
     private List<Music> musics = new ArrayList<>();
 
     public Playlist(){
