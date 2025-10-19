@@ -4,6 +4,9 @@ import net.minecraft.text.Text;
 
 import java.util.Objects;
 
+/**
+ * 表示歌单的标题
+ */
 public class Title {
     public final String value;
 
