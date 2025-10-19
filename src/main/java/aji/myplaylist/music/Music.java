@@ -21,6 +21,7 @@ public interface Music {
     Lyrics lyrics();
 
     static Music of (File file) throws IOException {
+        if (!file.exists()) throw new IOException("File does not exist");
         if (!file.isFile()) throw new IOException("File is not a file");
         if (file.getName().endsWith(".mp3")) return new MP3();
         if (file.getName().endsWith(".aac")) return new AAC();
