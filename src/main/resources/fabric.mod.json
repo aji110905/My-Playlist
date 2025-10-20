@@ -19,10 +19,10 @@
             "aji.myplaylist.MyPlaylist"
         ],
 		"server": [
-          "aji.myplaylist.server.MyPlaylistServer"
+            "aji.myplaylist.server.MyPlaylistServer"
         ],
         "client":[
-          "aji.myplaylist.client.MyPlaylistClient"
+            "aji.myplaylist.client.MyPlaylistClient"
         ],
         "modmenu": [
           "aji.myplaylist.client.ModMenuCompat"
