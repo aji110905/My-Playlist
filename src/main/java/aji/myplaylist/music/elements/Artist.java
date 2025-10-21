@@ -2,9 +2,6 @@ package aji.myplaylist.music.elements;
 
 import net.minecraft.text.Text;
 
-/**
- * 表示歌曲的作者
- */
 public class Artist {
     public final String value;
 
