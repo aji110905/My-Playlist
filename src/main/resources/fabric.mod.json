@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/aji110905",
-		"sources": "https://github.com/aji110905/My-Playlist"
+		"sources": "https://github.com/aji110905/My-Playlist",
+		"issues": "https://github.com/aji110905/My-Playlist/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/myplaylist/icon.png",
