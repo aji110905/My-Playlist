@@ -1,5 +1,7 @@
 package aji.myplaylist.client.config;
 
+import net.minecraft.client.gui.widget.GridWidget;
+
 import java.io.File;
 
 /**
@@ -22,6 +24,10 @@ public class Configmanager {
      * 将配置保存到配置文件
      */
     public void save() {
+
+    }
+
+    public void asOptions(GridWidget.Adder adder){
 
     }
 }

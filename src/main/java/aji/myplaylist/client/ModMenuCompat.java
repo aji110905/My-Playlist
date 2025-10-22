@@ -1,6 +1,6 @@
 package aji.myplaylist.client;
 
-import aji.myplaylist.client.gui.OptionsScreen;
+import aji.myplaylist.client.gui.screen.OptionsScreen;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

@@ -1,3 +1,5 @@
 {
-    "myplaylist.options": "My Playlist Options"
+    "myplaylist.screen.options": "My Playlist Options",
+    "myplaylist.screen.options.about": "About",
+    "myplaylist.screen.playlist": "Playlist"
 }

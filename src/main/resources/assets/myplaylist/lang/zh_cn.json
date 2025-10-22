@@ -1,3 +1,5 @@
 {
-    "myplaylist.options": "我的歌单选项"
+    "myplaylist.screen.options": "我的歌单选项",
+    "myplaylist.screen.options.about": "关于",
+    "myplaylist.screen.playlist": "歌单"
 }
