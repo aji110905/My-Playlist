@@ -1,5 +1,10 @@
 {
     "myplaylist.screen.options": "我的歌单选项",
+    "myplaylist.screen.options.restoreDefaults": "恢复默认值",
     "myplaylist.screen.options.about": "关于",
-    "myplaylist.screen.playlist": "歌单"
+    "myplaylist.screen.playlist": "歌单",
+    "myplaylist.screen.restoreDefaults": "恢复默认值",
+    "myplaylist.screen.restoreDefaults.text": "确定要把所有选项恢复为默认值吗",
+    "myplaylist.screen.restoreDefaults.yes": "是",
+    "myplaylist.screen.restoreDefaults.no": "否"
 }

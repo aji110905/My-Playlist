@@ -1,5 +1,10 @@
 {
     "myplaylist.screen.options": "My Playlist Options",
+    "myplaylist.screen.options.restoreDefaults": "Restore Defaults",
     "myplaylist.screen.options.about": "About",
-    "myplaylist.screen.playlist": "Playlist"
+    "myplaylist.screen.playlist": "Playlist",
+    "myplaylist.screen.restoreDefaults": "Restore Defaults",
+    "myplaylist.screen.restoreDefaults.text": "Are you sure you want to restore all options to default?",
+    "myplaylist.screen.restoreDefaults.yes": "yes",
+    "myplaylist.screen.restoreDefaults.no": "no"
 }

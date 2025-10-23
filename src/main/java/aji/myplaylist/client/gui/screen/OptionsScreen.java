@@ -41,11 +41,13 @@ public class OptionsScreen extends Screen {
 
         GridWidget gridWidget = new GridWidget();
         gridWidget.getMainPositioner().marginX(4).marginBottom(4).alignHorizontalCenter();
-        MyPlaylistClient.configmanager.asOptions(gridWidget.createAdder(2));
+        MyPlaylistClient.configmanager.asOptions(gridWidget.createAdder(2), this.client);
 
         layout.addBody(gridWidget);
 
-        layout.addFooter(ButtonWidget.builder(ScreenTexts.DONE, button -> this.close()).width(200).build());
+        DirectionalLayoutWidget directionalLayoutWidget3 = layout.addFooter(DirectionalLayoutWidget.horizontal()).spacing(8);
+        directionalLayoutWidget3.add(ButtonWidget.builder(ScreenTexts.DONE, button -> this.close()).width(150).build());
+        directionalLayoutWidget3.add(ButtonWidget.builder(Text.translatable("myplaylist.screen.options.restoreDefaults"), button -> this.client.setScreen(new RestoreDefaultsScreen(this))).build());
 
         layout.forEachChild(this::addDrawableChild);
         initTabNavigation();
