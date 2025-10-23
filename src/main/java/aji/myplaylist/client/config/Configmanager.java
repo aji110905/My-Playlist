@@ -1,7 +1,6 @@
 package aji.myplaylist.client.config;
 
 import aji.myplaylist.MyPlaylist;
-import com.google.gson.Gson;
 import com.google.gson.JsonParser;
 import com.google.gson.stream.JsonWriter;
 import net.minecraft.client.MinecraftClient;
