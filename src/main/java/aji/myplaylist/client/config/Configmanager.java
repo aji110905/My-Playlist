@@ -60,6 +60,7 @@ public class Configmanager {
         try {
             configFile.createNewFile();
             JsonWriter writer = new JsonWriter(new FileWriter(configFile));
+            writer.setIndent("  ");
             writer.beginObject();
             for (ParsedConfig config : configs) {
                 writer.name(config.getName());
