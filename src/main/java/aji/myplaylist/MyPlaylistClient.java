@@ -15,7 +15,7 @@ public class MyPlaylistClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         getInstance().configmanager = new Configmanager(new File(FabricLoader.getInstance().getConfigDir().toFile(), MyPlaylistSettings.MOD_ID + ".json"));
-        musics = new Playlist();
+        getInstance().musics = new Playlist();
     }
 
     public Configmanager getConfigmanager() {
