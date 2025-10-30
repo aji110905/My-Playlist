@@ -23,7 +23,7 @@
             "aji.myplaylist.MyPlaylistClient"
         ],
         "modmenu": [
-            "aji.myplaylist.client.ModMenuCompat"
+            "aji.myplaylist.compat.ModMenuCompat"
         ]
 	},
 	"mixins": [

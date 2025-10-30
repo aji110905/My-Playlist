@@ -1,4 +1,4 @@
-package aji.myplaylist.client;
+package aji.myplaylist.compat;
 
 import aji.myplaylist.client.gui.screen.OptionsScreen;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
