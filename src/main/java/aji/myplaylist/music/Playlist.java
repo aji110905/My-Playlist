@@ -1,6 +1,6 @@
 package aji.myplaylist.music;
 
-import aji.myplaylist.MyPlaylist;
+import aji.myplaylist.MyPlaylistSettings;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.io.File;
@@ -26,7 +26,7 @@ public class Playlist {
             try {
                 musics.add(Music.of(file));
             } catch (IOException e) {
-                MyPlaylist.LOGGER.error("Audio cannot be read from this file: {}", file.getName(), e);
+                MyPlaylistSettings.LOGGER.error("Audio cannot be read from this file: {}", file.getName(), e);
             }
         }
     }

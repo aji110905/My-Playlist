@@ -1,6 +1,6 @@
 package aji.myplaylist.client.gui.screen;
 
-import aji.myplaylist.client.MyPlaylistClient;
+import aji.myplaylist.MyPlaylistClient;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.widget.*;
 import net.minecraft.text.Text;
@@ -31,7 +31,7 @@ public class RestoreDefaultsScreen extends Screen {
         DirectionalLayoutWidget directionalLayoutWidget2 = directionalLayoutWidget1.add(DirectionalLayoutWidget.horizontal()).spacing(8);
         directionalLayoutWidget2.add(ButtonWidget.builder(Text.translatable("myplaylist.screen.restoreDefaults.no"), button -> this.client.setScreen(parent)).build());
         directionalLayoutWidget2.add(ButtonWidget.builder(Text.translatable("myplaylist.screen.restoreDefaults.yes"), button -> {
-            MyPlaylistClient.configmanager.allConfigsToDefault();
+            MyPlaylistClient.getInstance().getConfigmanager().allConfigsToDefault();
             this.client.setScreen(parent);
         }).build());
         layout.forEachChild(this::addDrawableChild);

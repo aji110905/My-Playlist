@@ -1,9 +1,8 @@
 package aji.myplaylist.client.gui.screen;
 
-import aji.myplaylist.client.MyPlaylistClient;
+import aji.myplaylist.MyPlaylistClient;
 import net.minecraft.client.gui.Element;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.gui.tooltip.Tooltip;
 import net.minecraft.client.gui.widget.*;
 import net.minecraft.screen.ScreenTexts;
 import net.minecraft.text.Text;
@@ -27,7 +26,7 @@ public class OptionsScreen extends Screen {
 
     @Override
     protected void remove(Element child) {
-        MyPlaylistClient.configmanager.save();
+        MyPlaylistClient.getInstance().getConfigmanager().save();
     }
 
     @Override
@@ -39,7 +38,7 @@ public class OptionsScreen extends Screen {
 
         GridWidget gridWidget = new GridWidget();
         gridWidget.getMainPositioner().marginX(4).marginBottom(4).alignHorizontalCenter();
-        MyPlaylistClient.configmanager.asOptions(gridWidget.createAdder(2), this.client);
+        MyPlaylistClient.getInstance().getConfigmanager().asOptions(gridWidget.createAdder(2), this.client);
 
         layout.addBody(gridWidget);
 

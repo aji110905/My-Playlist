@@ -1,6 +1,6 @@
 package aji.myplaylist.client.config;
 
-import aji.myplaylist.MyPlaylist;
+import aji.myplaylist.MyPlaylistSettings;
 import com.google.gson.JsonParser;
 import com.google.gson.stream.JsonWriter;
 import net.minecraft.client.MinecraftClient;
@@ -37,7 +37,7 @@ public class Configmanager {
                 }
                 configs.add(new ParsedConfig(field.getName(), list, string));
             } catch (IllegalAccessException e) {
-                MyPlaylist.LOGGER.error("Failed to load config field:{}", field.getName(), e);
+                MyPlaylistSettings.LOGGER.error("Failed to load config field:{}", field.getName(), e);
             }
         }
         try {
@@ -51,7 +51,7 @@ public class Configmanager {
                 }
             });
         } catch (FileNotFoundException e) {
-            MyPlaylist.LOGGER.error("Failed to load config file", e);
+            MyPlaylistSettings.LOGGER.error("Failed to load config file", e);
         }
     }
 
@@ -67,9 +67,9 @@ public class Configmanager {
             }
             writer.endObject();
             writer.close();
-            MyPlaylist.LOGGER.info("Saved config file");
+            MyPlaylistSettings.LOGGER.info("Saved config file");
         } catch (IOException e) {
-            MyPlaylist.LOGGER.error("Failed to save config file", e);
+            MyPlaylistSettings.LOGGER.error("Failed to save config file", e);
         }
     }
 

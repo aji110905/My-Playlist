@@ -16,14 +16,11 @@
 	"icon": "assets/myplaylist/icon.png",
 	"environment": "*",
 	"entrypoints": {
-        "main": [
-            "aji.myplaylist.MyPlaylist"
-        ],
 		"server": [
-            "aji.myplaylist.server.MyPlaylistServer"
+            "aji.myplaylist.MyPlaylistServer"
         ],
         "client":[
-            "aji.myplaylist.client.MyPlaylistClient"
+            "aji.myplaylist.MyPlaylistClient"
         ],
         "modmenu": [
             "aji.myplaylist.client.ModMenuCompat"
