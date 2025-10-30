@@ -7,6 +7,6 @@ import net.fabricmc.api.EnvType;
 public class MyPlaylistServer implements DedicatedServerModInitializer {
     @Override
     public void onInitializeServer() {
-        MyPlaylist.Env = EnvType.SERVER;
+
     }
 }

@@ -10,9 +10,9 @@ import java.io.File;
 
 public class MyPlaylistClient implements ClientModInitializer {
     public static Configmanager configmanager;
+
     @Override
     public void onInitializeClient() {
-        MyPlaylist.Env = EnvType.CLIENT;
         configmanager = new Configmanager(new File(FabricLoader.getInstance().getConfigDir().toFile(), MyPlaylist.MOD_ID + ".json"));
     }
 }

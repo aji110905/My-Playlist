@@ -13,7 +13,6 @@ public class MyPlaylist implements ModInitializer {
     public static final String MOD_NAME = "MyPlaylist";
     public static final String MOD_VERSION = FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow().getMetadata().getVersion().getFriendlyString();
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-    public static EnvType Env = null;
     public static Playlist musics = null;
 
 	@Override
