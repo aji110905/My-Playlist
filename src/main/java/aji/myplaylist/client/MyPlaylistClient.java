@@ -3,7 +3,6 @@ package aji.myplaylist.client;
 import aji.myplaylist.MyPlaylist;
 import aji.myplaylist.client.config.Configmanager;
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.api.EnvType;
 import net.fabricmc.loader.api.FabricLoader;
 
 import java.io.File;
